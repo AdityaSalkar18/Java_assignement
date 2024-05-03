@@ -1,0 +1,133 @@
+//1.Input a year and find whether it is a leap year or not.
+// import java.util.Scanner;
+// public class Main{
+//     public static void main(String[] args){
+//         Scanner input  = new Scanner(System.in);
+//         System.out.print("Enter the year:");
+//         int year = input.nextInt();
+//         if(year % 4 == 0 && year % 100 != 0 || year % 400 ==0){
+//             System.out.println("The year is leap Year");
+//         }else{
+
+//             System.out.println("The year is not leap year");
+//         }
+//     }
+// }
+
+
+//2.Take two numbers and print the sum of both.
+
+// import java.util.Scanner;
+
+// public class Main{
+//     public static void main(String[] args){
+//         Scanner input = new Scanner(System.in);
+//         System.out.print("Enter the 1st number ");
+//         int num1 = input.nextInt();
+//         System.out.print("Enter the 2nd number ");
+//         int num2 = input.nextInt();
+//         System.out.println("The Sum of Two number is:" + (num1 + num2));
+//     }
+
+// }
+
+
+
+
+
+
+
+
+//3.Take a number as input and print the multiplication table for it.
+// import java.util.Scanner;
+
+// public class Main{
+//     public static void main(String[] args){
+//         Scanner input = new Scanner(System.in);
+//         System.out.print("Enter the number:");
+//         int number = input.nextInt();
+//         // for(int x = 1 ; x <= 10; x++){
+//         //     System.out.println(number*x);
+//         // }
+
+//         int x = 1;
+//         while(x <= 10){
+//             System.out.println(number*x);
+//             x++;
+//         }
+//         // System.out.println(number);
+
+//     }
+// }
+
+//4.Take 2 numbers as inputs and find their HCF and LCM.
+
+// import java.util.Scanner;
+// public class Main{
+//     public static void main(String[] args){
+//         Scanner input = new Scanner(System.in);
+//         System.out.println("Enter the 1st number ");
+//         int num1 = input.nextInt();
+//         System.out.println("Enter the 2nd number");
+//         int num2 = input.nextInt();
+       
+
+//         while (num2 != 0) {
+//             int temp = num2;
+//             num2 = num1 % num2;
+//             num1 = temp;
+//         }
+//         System.out.println(" The HCF is :" + num1);
+
+//         int lcm = (num1 * num2) / num1;
+//         System.out.println(" The LCM is :" + lcm);
+//     }
+//     }
+
+
+
+//5.Keep taking numbers as inputs till the user enters ‘x’, after that print sum of all.
+// import java.util.Scanner;
+// public class Main{
+//     public static void main(String[] args){
+//      Scanner input = new Scanner(System.in);
+//      int x = 0;
+//      while(x == x){
+//      System.out.println("Enter the number :");
+//      int number = input.nextInt();
+//      x++;
+//      System.out.println(number);
+//      }
+
+   
+//     }
+// }
+
+
+// import java.util.Scanner;
+
+// public class SumOfNumbers {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+//         int sum = 0;
+//         String input;
+
+//         System.out.println("Enter numbers to add. Type 'x' to stop.");
+
+//         while (true) {
+//             input = scanner.nextLine();
+
+//             if (input.equalsIgnoreCase("x")) {
+//                 break;
+//             }
+
+//             try {
+//                 sum += Integer.parseInt(input);
+//             } catch (NumberFormatException e) {
+//                 System.out.println("Invalid input. Please enter a number or type 'x' to stop.");
+//             }
+//         }
+
+//         System.out.println("The sum of all numbers is: " + sum);
+//     }
+// }
