@@ -1,0 +1,236 @@
+//#1.Write a program to print whether a number is even or odd, also          take input from the user.
+
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the number");
+        int num = in.nextInt();
+        if(num % 2 == 0){
+            System.out.println("The number is Even number");
+        }
+        else{
+            System.out.println("The number is Odd");
+        }
+
+ }
+}
+
+
+
+//#2.Take name as input and print a greeting message for that particular name.
+
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+          Scanner in = new Scanner(System.in);
+          System.out.println("Enter Your Name");
+          String name = in.nextLine();
+        System.out.println("Hello " + name);
+
+}
+}
+
+
+
+//#3.Write a program to input principal, time, and rate (P, T, R) from the user and find Simple Interest.
+
+
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+       
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter P :");
+        int P = in.nextInt();
+        System.out.print("Enter T :");
+        int T = in.nextInt();
+        System.out.print("Enter R :");
+        int R = in.nextInt();
+
+        int result = (P*T*R)/100;
+
+        System.out.println("The Simple Interest is: " + result);
+
+
+
+    }
+}
+
+
+//#4Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
+
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the 1 st number");
+        double num1 = in.nextDouble();
+        System.out.println("Enter the 2 nd number");
+        double num2 = in.nextDouble();
+        System.out.println("Enter the operator(+, -, *, /):");
+        char operator = in.next().charAt(0);
+
+        double result = 0;
+
+        if(operator == '+'){
+            result = num1 + num2;
+        }else if(operator == '-'){
+            result = num1 - num2;
+        }else if(operator == '*'){
+            result = num1 * num2;
+        }else if(operator == '/'){
+            if(num2 != 0){
+                result = num1 / num2;
+
+            }else{
+                System.out.println("Error: Division by zero");
+                System.exit(1);
+            }
+        }else{
+            System.out.println("Error: Invalid operator");
+            System.exit(1);
+        }
+        System.out.println("Result:" + result);
+        in.close();
+
+    }
+}
+
+//#5 Take 2 numbers as input and print the largest number.
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter 1st no:");
+        double num1 = in.nextDouble();
+        System.out.print("Enter 2nd no:");
+        double num2 = in.nextDouble();
+        if(num1 > num2){
+            System.out.println("The largest no is "+ num1);
+        }else{
+            System.out.println("The largest no is "+ num2);
+        }
+
+    }
+}
+
+
+//#6Input currency in rupees and output in USD.
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter currency in rupees ");
+        double rs = in.nextDouble();
+        double usd = rs*0.012;
+        System.out.println("The Currency in USD : " + usd);
+    }
+}
+
+//7.To calculate Fibonacci Series up to n numbers.
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Entert the value of n:");
+        int n = in.nextInt();
+        int firstterm = 0 ,secondterm = 1;
+        System.out.println("Fibonaci series up to "+ n +"terms:");
+
+        for(int i = 1; i <= n; ++i){
+            System.out.println(firstterm + " ");
+
+            //compute the next term
+            int nextterm = firstterm + secondterm;
+            firstterm = secondterm;
+            secondterm = nextterm;
+        }
+
+
+    }
+}
+
+
+//8.To find out whether the given String is Palindrome or not.
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the String:");
+        String original = in.nextLine();
+
+        String cleaned = original.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
+
+        String reversed = new StringBuilder(cleaned).reverse().toString();
+
+        if(cleaned.equals(reversed)){
+            System.out.println("The string is a palindrom");
+        }else{
+            System.out.println("The string is not a palindrom");
+        }
+    }
+}
+
+
+//9.To find Armstrong Number between two given number.
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner in  = new Scanner(System.in);
+        System.out.println("Enter the lower bound:");
+        int lowerBound = in.nextInt();
+        System.out.println("Enter the upper bound:");
+        int upperBound = in.nextInt();
+
+        System.out.println("Armstrong numbers between " + lowerBound + " and " + upperBound + ":");
+        for (int number = lowerBound; number <= upperBound; number++) {
+            if (isArmstrong(number)) {
+                System.out.println(number);
+
+        }
+
+    }
+}
+
+    public static boolean isArmstrong(int number) {
+        int numberOfDigits = String.valueOf(number).length();
+        int sum = 0, temp = number;
+        while (temp != 0) {
+            int digit = temp % 10;
+            sum += Math.pow(digit, numberOfDigits);
+            temp /= 10;
+        }
+        return sum == number;
+    }
+}
