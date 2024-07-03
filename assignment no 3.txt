@@ -1,0 +1,1516 @@
+#//1.Area Of Circle Java Program
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in  = new Scanner(System.in);
+        System.out.println("Enter rhe value of r:");
+        double r = in.nextDouble();
+//        double area = 3.14*r*r;
+//        double area = Math.PI * r * r;
+        double area = Math.PI * Math.pow(r,2);
+        System.out.println("The area of square:"+ area);
+
+
+    }
+
+}
+
+#//2.Area Of Triangle
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner in  = new Scanner(System.in);
+        System.out.println("Enter value of b:");
+        double b = in.nextDouble();
+        System.out.println("Enter value of h:");
+        double h = in.nextDouble();
+        double area = 0.5 * b * h;
+        System.out.println("The area of triangle is:"+ area);
+
+
+}
+
+}
+
+#//3.Area Of Rectangle Program
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner in  = new Scanner(System.in);
+        System.out.println("Enter value of b:");
+        double b = in.nextDouble();
+        System.out.println("Enter value of l:");
+        double l = in.nextDouble();
+        double area = l * b;
+        System.out.println("The area of rectangle is:"+ area);
+
+
+}
+
+}
+
+#//4.Area Of Isosceles Triangle
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner in  = new Scanner(System.in);
+        System.out.println("Enter value of b:");
+        double b = in.nextDouble();
+        System.out.println("Enter value of h:");
+        double h = in.nextDouble();
+        double area = (b * h) / 2;
+        System.out.println("The area of Isosceles Triangle is:"+ area);
+
+
+}
+
+}
+
+#//5.Area Of Parallelogram
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner in  = new Scanner(System.in);
+        System.out.println("Enter value of b:");
+        double b = in.nextDouble();
+        System.out.println("Enter value of h:");
+        double h = in.nextDouble();
+        double area = b * h;
+        System.out.println("The area of Area Of Parallelogram is:"+ area);
+
+
+}
+
+}
+
+#//6.Area Of Rhombus
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner in  = new Scanner(System.in);
+        System.out.println("Enter value of p:");
+        double p = in.nextDouble();
+        System.out.println("Enter value of q:");
+        double q = in.nextDouble();
+        double area = (p * q) / 2;
+        System.out.println("The area of Area Of Rhombus is:"+ area);
+
+
+}
+
+}
+
+#//7.Area Of Equilateral Triangle
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner in  = new Scanner(System.in);
+        System.out.println("Enter value of p:");
+        double p = in.nextDouble();
+
+//        double area = 0.43 * p * p ;
+        double area = (Math.sqrt(3) / 4) * Math.pow(p, 2);
+        System.out.println("The area of Area Of Rhombus is:"+ area);
+
+
+}
+
+}
+
+#//8.Perimeter Of Circle
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in  = new Scanner(System.in);
+        System.out.println("Enter the value of r");
+        double r = in.nextDouble();
+        double perimeter = 2 * Math.PI * r;
+        System.out.println("The Perimeter of Circle :"+ perimeter);
+        
+
+    }
+
+}
+
+
+#//9.Perimeter Of Equilateral Triangle
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in  = new Scanner(System.in);
+        System.out.println("Enter the value of a");
+        double a = in.nextDouble();
+        double perimeter = 3 * a;
+        System.out.println("The Perimeter of Equilateral Triangle :"+ perimeter);
+
+
+    }
+
+}
+
+
+#//10.Perimeter Of Parallelogram
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in  = new Scanner(System.in);
+        System.out.println("Enter the value of a");
+        double a = in.nextDouble();
+        System.out.println("Enter the value of b");
+        double b = in.nextDouble();
+        double perimeter = 2 * (a + b);
+        System.out.println("The Perimeter Of Parallelogram :"+ perimeter);
+
+
+    }
+
+}
+
+#//11.Perimeter Of Rectangle
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in  = new Scanner(System.in);
+        System.out.println("Enter the value of l");
+        double l = in.nextDouble();
+        System.out.println("Enter the value of w");
+        double w = in.nextDouble();
+        double perimeter = 2 * (l + w);
+        System.out.println("The Perimeter Of Rectangle :"+ perimeter);
+
+
+    }
+
+}
+
+#//12.Perimeter Of Square
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in  = new Scanner(System.in);
+        System.out.println("Enter the value of a");
+        double a = in.nextDouble();
+        double perimeter = 4 * a;
+        System.out.println("The Perimeter Of Square :"+ perimeter);
+
+
+    }
+
+}
+
+#//13.Perimeter Of Rhombus
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in  = new Scanner(System.in);
+        System.out.println("Enter the value of a");
+        double a = in.nextDouble();
+        double perimeter = 4 * a;
+        System.out.println("The Perimeter Of Rhombus :"+ perimeter);
+
+
+    }
+
+}
+
+
+#//14.Volume Of Cone
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in  = new Scanner(System.in);
+        System.out.println("Enter the value of r");
+        double r = in.nextDouble();
+        System.out.println("Enter the value of h");
+        double h = in.nextDouble();
+        double volume = Math.PI * Math.pow(r,2) * h /3;
+        System.out.println("The Volume Of Cone:"+ volume);
+
+
+    }
+
+}
+
+
+#//15.Volume Of Prism
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in  = new Scanner(System.in);
+        System.out.println("Enter the value of b");
+        double b = in.nextDouble();
+        System.out.println("Enter the value of h");
+        double h = in.nextDouble();
+        double volume = b * h;
+        System.out.println("The Volume Of Prism:"+ volume);
+
+
+    }
+
+}
+
+#//16.Volume Of Cylinder
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in  = new Scanner(System.in);
+        System.out.println("Enter the value of r");
+        double r = in.nextDouble();
+        System.out.println("Enter the value of h");
+        double h = in.nextDouble();
+        double volume = Math.PI * Math.pow(r,2) * h;
+        System.out.println("The Volume Of Cylinder:"+ volume);
+
+
+    }
+
+}
+
+#//17.Volume Of Sphere
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in  = new Scanner(System.in);
+        System.out.println("Enter the value of r");
+        double r = in.nextDouble();
+
+        double volume = 4/3 * Math.PI * Math.pow(r,3) ;
+        System.out.println("The Volume Of Sphere:"+ volume);
+
+
+    }
+
+}
+
+
+#//18.Volume Of Pyramid
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in  = new Scanner(System.in);
+        System.out.println("Enter the value of l");
+        double l = in.nextDouble();
+        System.out.println("Enter the value of w");
+        double w = in.nextDouble();
+        System.out.println("Enter the value of h");
+        double h = in.nextDouble();
+
+        double volume = l * w * h /3 ;
+        System.out.println("The Volume Of Pyramid:"+ volume);
+
+
+    }
+
+}
+
+#//19.Curved Surface Area Of Cylinder
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in  = new Scanner(System.in);
+        System.out.println("Enter the value of r");
+        double r = in.nextDouble();
+
+        System.out.println("Enter the value of h");
+        double h = in.nextDouble();
+
+        double area = 2 * Math.PI * r * h ;
+        System.out.println("The Curved Surface Area Of Cylinder:"+ area);
+
+
+    }
+
+}
+
+
+#//20.Total Surface Area Of Cube
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in  = new Scanner(System.in);
+        System.out.println("Enter the value of a");
+        double a = in.nextDouble();
+        
+        double area = 6 * Math.pow(a,2) ;
+        System.out.println("The Total Surface Area Of Cube:"+ area);
+
+
+    }
+
+}
+
+#//21.Fibonacci Series In Java Programs
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in  = new Scanner(System.in);
+        System.out.println("Enter the value of n");
+        double n = in.nextDouble();
+        int first = 0; int second = 1;
+        System.out.print("Fibonacci Series: " + first + " " + second);
+        for(int i = 2; i < n; i++){
+            int next = first + second;
+            System.out.println(" " + next);
+            first = second;
+            second = next;
+        }
+
+
+
+    }
+
+}
+
+
+
+#//22.Subtract the Product and Sum of Digits of an Integer
+package aditya;
+
+public class Main {
+    public static void main(String[] args) {
+        int n = 234;
+        int result = subtractProductAndSum(n);
+        System.out.println("Result :" + result);
+
+    }
+    public static int subtractProductAndSum(int n){
+        int sum= 0, product = 1;
+        while(n > 0){
+            int digit = n % 10;
+            sum += digit;
+            product *= digit;
+            n /= 10;
+        }
+        return product - sum;
+    }
+
+}
+
+
+
+#//23.Input a number and print all the factors of that number (use loops).
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the number");
+        int n = in.nextInt();
+
+        System.out.println("Factors of " + n + " are:");
+
+        for (int i = 1; i <= n; i++) {
+            if(n % i == 0){
+                System.out.println(i + " ");
+            }
+
+        }
+
+
+    }
+
+
+}
+
+#//24.Take integer inputs till the user enters 0 and print the sum of all numbers (HINT: while loop).
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int sum = 0;
+
+
+           while(true) {
+               System.out.println("Enter a number ( 0 to exit):");
+               int n = in.nextInt();
+               if(n == 0) {
+                   break;
+               }
+               sum += n;
+
+           }
+        System.out.println("the sum of all numbers is " + sum);
+
+       }
+
+    }
+
+
+#//25.Take integer inputs till the user enters 0 and print the largest number from all.
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int largest  = Integer.MIN_VALUE;
+
+
+           while(true) {
+               System.out.println("Enter a number ( 0 to exit):");
+               int n = in.nextInt();
+               if(n == 0) {
+                   break;
+               }
+               if(n > largest){
+                   largest = n;
+               }
+
+           }
+        if (largest == Integer.MIN_VALUE) {
+            System.out.println("No numbers were entered.");
+        } else {
+            System.out.println("The largest number entered is: " + largest);
+        }
+
+       }
+
+    }
+
+
+#//26.Take integer inputs till the user enters 0 and print the largest number from all.
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int ans = 0;
+
+
+        while (true) {
+            System.out.print("Enter the operator:");
+            char op = in.next().trim().charAt(0);
+            System.out.println();
+            if (op == '+') {
+                System.out.println("Enter two number ( 0 to exit):");
+                int n1 = in.nextInt();
+                int n2 = in.nextInt();
+                if (op == '+') {
+                    ans = n1 + n2;
+                }
+
+
+            } else if (op == '0' || op == '0') {
+                break;
+            } else {
+                System.out.println("Invalid operation");
+            }
+            System.out.println(ans);
+
+        }
+
+    }
+}
+
+
+
+##Intermediate Java Programs
+
+#//1.Factorial Program In Java
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static long factorial(int n){
+        long result = 1;
+        for(int i = 1; i <= n; i++){
+            result *= i;
+
+        }
+        return result;
+    }
+
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter a number :");
+        int n = in.nextInt();
+
+        long result = factorial(n);
+
+        System.out.println("Factorial of " + n + " is " + result);
+
+
+    }
+
+}
+
+
+#//2.Calculate Electricity Bill
+package aditya;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static double calculateBill(int units){
+        double billAmount = 0.0;
+        if(units <= 100){
+            billAmount = units * 1.20;
+        }else if (units <= 300){
+            billAmount = 100 * 1.20 + (units - 100) * 2.00;
+        }else{
+            billAmount = 100 * 1.20 + 200 * 2.00 + (units - 300)*3.00;
+        }
+
+        return  billAmount;
+    }
+
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the number of units consumed :");
+        int units = in.nextInt();
+
+        double billAmount = calculateBill(units);
+
+        System.out.println("Electricity bill for " + units + " units is: " + billAmount);
+
+
+    }
+
+
+
+#//3.Calculate Average Of N Numbers
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner (System.in);
+        System.out.println("Enter the number of elements:");
+        int n = in.nextInt();
+
+        double[] numbers = new double[n];
+
+        System.out.println("Enter the numbers");
+        for (int i = 0; i < n; i++) {
+            numbers[i] = in.nextDouble();
+        }
+
+        double sum = 0;
+        for(int i = 0; i < n; i++){
+            sum += numbers[i];
+        }
+
+        double average = sum / n;
+
+        System.out.println("The average of numbers  is :" + average);
+
+    }
+
+}
+
+
+#//4.Calculate Discount Of Product
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner (System.in);
+        System.out.println("Enter the original price of product:");
+        double op = in.nextDouble();
+
+        System.out.println("Enter the discount percent :");
+        double dp = in.nextDouble();
+
+
+        double ds = (op * dp) / 100;
+
+        double fp = op - ds ;
+
+        System.out.println("The original price of product :"+ op);
+        System.out.println("The discount on  product :" + ds);
+        System.out.println("The final price of product :" + fp);
+
+
+
+
+    }
+
+}
+
+
+#//5.Calculate Distance Between Two Points
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner (System.in);
+
+        System.out.println("Enter the x coordinate of 1st:");
+        double x1 = in.nextDouble();
+
+        System.out.println("Enter the y coordinate of 1st :");
+        double y1 = in.nextDouble();
+
+        System.out.println("Enter the x coordinate of 2nd:");
+        double x2 = in.nextDouble();
+
+        System.out.println("Enter the y coordinate of 2nd :");
+        double y2 = in.nextDouble();
+
+        double distance = Math.sqrt(Math.pow((x2-x1),2)+Math.pow((y2-y1),2));
+
+        System.out.println("The distance between the points (" + x1 + ", " + y1 + ") and (" + x2 + ", " + y2 + ") is: " + distance);
+        
+
+    }
+
+}
+
+#//6.Calculate Commission Percentage
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner (System.in);
+
+        System.out.println("Enter the sales amount:");
+        double sa = in.nextDouble();
+
+        System.out.println("Enter the commision amount :");
+        double ca = in.nextDouble();
+
+        double cp = (ca / sa)* 100;
+
+        System.out.println("Total Sales Amount: " + sa);
+        System.out.println("Commission Amount: " + ca);
+        System.out.println("The Commission Percentage is :" + cp);
+
+
+    }
+
+}
+
+
+#//7.Power In Java
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner (System.in);
+
+        System.out.println("Enter the base:");
+        double base = in.nextDouble();
+
+        System.out.println("Enter the exponent:");
+        double exponent = in.nextDouble();
+
+        double power = Math.pow(base,exponent);
+
+        System.out.println(base + " raised to the power of " + exponent + " is: " + power);
+
+
+    }
+
+}
+
+
+#//8.Calculate Depreciation of Value
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+
+    public static double calculateDepreciation(double costOfAsset,double salvageValue,int usefulLife ){
+        return (costOfAsset - salvageValue ) / usefulLife ;
+    }
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner (System.in);
+
+        System.out.print("Enter the cost of the asset: ");
+        double costOfAsset = in.nextDouble();
+
+        System.out.print("Enter the salvageValue: ");
+        double salvageValue = in.nextDouble();
+
+        System.out.print("Enter the usefulLife in year: ");
+        int usefulLife = in.nextInt();
+
+        double annualDepreciation = calculateDepreciation(costOfAsset, salvageValue,usefulLife );
+
+        System.out.println(" Annual Depreciation Expense: " + annualDepreciation);
+
+        double currentValue = costOfAsset;
+        for (int year = 1; year <= usefulLife; year++) {
+            currentValue -= annualDepreciation;
+            System.out.println("Value at the end of year " + year + ":" + currentValue);
+        }
+
+
+    }
+
+}
+
+
+#//9.Calculate Batting Average
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+
+    // Method to calculate the batting average
+    public static double calculateBattingAverage(int totalRuns, int timesOut) {
+        // Guard against division by zero
+        if (timesOut == 0) {
+            return totalRuns; // If the player has never been out, the batting average is their total runs
+        }
+        return (double) totalRuns / timesOut;
+    }
+
+    // Main method
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Prompt user for input values
+        System.out.print("Enter the total runs scored: ");
+        int totalRuns = scanner.nextInt();
+
+        System.out.print("Enter the number of times out: ");
+        int timesOut = scanner.nextInt();
+
+        // Calculate batting average
+        double battingAverage = calculateBattingAverage(totalRuns, timesOut);
+
+        // Print the result
+        System.out.printf("Batting Average: %.2f%n", battingAverage);
+
+        // Close the scanner
+        scanner.close();
+    }
+}
+
+
+
+
+#//10.Calculate CGPA Java Program
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+
+    public static double calculateCGPA(double[] gradePoints,int[] creditHours ){
+        double totalGradePoints = 0;
+        int totalCreditHours = 0;
+
+        for(int i = 0; i < gradePoints.length; i++){
+            totalGradePoints += gradePoints[i] * creditHours[i];
+            totalCreditHours += creditHours[i];
+        }
+
+        return totalGradePoints / totalCreditHours;
+    }
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner (System.in);
+
+        System.out.println("Enter the number of subjects:");
+        int numberOfSubjects = in.nextInt();
+
+        double[] gradePoints = new double[numberOfSubjects];
+        int[] creditHours = new int[numberOfSubjects];
+
+        for (int i = 0; i < numberOfSubjects; i++) {
+            System.out.println("Enter grade points for subject " + (i + 1) + ": ");
+             gradePoints[i] = in.nextDouble();
+
+            System.out.println("Enter credit hours for subject " + (i + 1) + ": ");
+            creditHours[i] = in.nextInt();
+
+        }
+
+
+        double cgpa= calculateCGPA(gradePoints, creditHours);
+
+        System.out.printf("CGPA %.2f%n", cgpa);
+
+
+    }
+
+}
+
+
+
+
+#//11.Compound Interest Java Program
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+    public static double calculateCompoundInterest( double principal, double rate, int timesCompounded,int years){
+        return principal*Math.pow(1+ (rate/years),years * timesCompounded);
+    }
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter principal value : ");
+        double principal = in.nextDouble();
+        System.out.println("Enter rate value : ");
+        double rate = in.nextDouble();
+
+        System.out.println("Enter timesCompounded value : ");
+        int timesCompounded = in.nextInt();
+        System.out.println("Enter years : ");
+        int years = in.nextInt();
+
+        double amount = calculateCompoundInterest(  principal, rate,  timesCompounded, years);
+
+        System.out.printf("Amount after %d years: %.2f%n", years, amount);
+
+    }
+
+}
+
+
+
+
+#//12.Calculate Average Marks
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+    public static double calculateAverageMarks( double[] marks ,int noSubject){
+        double totalMarks = 0;
+        for (int i = 0; i < noSubject; i++) {
+             totalMarks += marks[i];
+
+        }
+        return totalMarks/noSubject;
+    }
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the number of subjects : ");
+        int noSubject = in.nextInt();
+
+        double[] marks = new double[noSubject];
+        for (int i = 0; i < noSubject; i++) {
+            System.out.println("Enter Marks of Subject: ");
+            marks[i] = in.nextDouble();
+
+        }
+
+
+        double AverageMarks = calculateAverageMarks(marks,noSubject);
+
+        System.out.println("The Average Of Marks "+ AverageMarks);
+
+    }
+
+}
+
+#//13.Sum Of N Numbers
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+
+    public static double calculateSum(int n, double[] number){
+         double sum = 0;
+        for (int i = 0; i < n; i++) {
+            sum += number[i];
+        }
+        return sum;
+    }
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the value of n : ");
+        int n = in.nextInt();
+
+        double[] number = new double[n];
+        for (int i = 0; i < n; i++) {
+            System.out.println("Enter the number :");
+            number[i] = in.nextDouble();
+
+        }
+        double sumOfNum = calculateSum(n , number);
+
+
+        System.out.println("The Sum of Numbers "+ sumOfNum);
+
+    }
+
+}
+
+
+#//14.Armstrong Number In Java
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the value of number : ");
+        int number = in.nextInt();
+
+        if(isArmstrong(number)){
+            System.out.println(number + " is an Armstrong number");
+        }else{
+            System.out.println(number + " is not an Armstrong number");
+        }
+
+    }
+        public static boolean isArmstrong(int number){
+            int originalNumber = number;
+            int result = 0;
+            int n = numberOfDigits(number);
+
+            while(number != 0){
+                int digit = number % 10;
+                result += Math.pow(digit,n);
+                number /= 10;
+            }
+            return result == originalNumber;
+
+        }
+
+        public static int numberOfDigits(int number) {
+            return String.valueOf(number).length();
+        }
+
+
+}
+
+
+
+
+#//15.Find Ncr & Npr
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the value of n: ");
+        int n = in.nextInt();
+        System.out.println("Enter the value of r: ");
+        int r = in.nextInt();
+
+        long nCr =combination(n ,r);
+        long nPr =permutation(n, r);
+
+        System.out.println("nCr (" + n + "C" + r + ") = " + nCr);
+        System.out.println("nPr (" + n + "P" + r + ") = " + nPr);
+    }
+
+    public static long combination(int n, int r){
+        return factorial(n) / (factorial(r) * factorial(n - r));
+
+    }
+    public static long permutation(int n, int r){
+        return factorial(n) / factorial(n - r);
+
+    }
+
+
+    public static long factorial(int num){
+        long result = 1;
+        for(int i = 1; i <= num; i++){
+            result *= i;
+        }
+        return result;
+    }
+
+}
+
+
+#//16.Reverse A String In Java
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the String: ");
+        String os = in.next();
+        String rs = reverse(os);
+        System.out.println("Original String: " + os);
+        System.out.println("Reversed String: " + rs);
+
+    }
+    public static String reverse(String str){
+        char[] chars = str.toCharArray();
+        String r = "";
+        for(int i = chars.length - 1; i >= 0; i--){
+             r += chars[i];
+        }
+        return r;
+
+    }
+
+}
+
+#//17.Find if a number is palindrome or not
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the number:");
+        int n = in.nextInt();
+
+        int palindrome = reverse(n);
+
+
+        if( n == palindrome){
+            System.out.println("The number " + n +" is palindrome" );
+        }else{
+            System.out.println("The number " + n + " is not palindrome");
+        }
+
+    }
+
+    public static int reverse(int n){
+        int r = 0;
+        while(n != 0){
+            int digit = n % 10;
+            r = r * 10 + digit;
+            n /= 10;
+        }
+        return r;
+
+    }
+
+}
+
+#//18.Future Investment Value
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the investment amount:");
+        double investmentAmount = in.nextDouble();
+
+        System.out.println("Enter the annual interest rate (in percentage): ");
+        double annualInterestRate = in.nextDouble();
+
+        System.out.println("Enter the number of years:");
+        int years = in.nextInt();
+
+        double monthlyInterestRate = annualInterestRate / 1200;
+
+        double futureInvestmentValue = investmentAmount;
+        for(int year = 1; year <= years; year++){
+            futureInvestmentValue *= Math.pow(1 + monthlyInterestRate,12);
+            System.out.printf("Year %d: Future investment value is %.2f\n", year, futureInvestmentValue);
+        }
+
+
+    }
+
+
+}
+
+#//19.HCF Of Two Numbers Program
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+
+    public static int calculateHCF(int num1, int num2){
+        while(num2 != 0){
+            int temp = num2;
+            num2 = num1 % num2;
+            num1 = temp;
+        }
+        return num1;
+    }
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the 1st number:");
+        int num1 = in.nextInt();
+
+        System.out.println("Enter the 2nd number:");
+        int num2 = in.nextInt();
+
+        int hcf = calculateHCF(num1, num2);
+
+        System.out.println("The HCF of " + num1 + " and " + num2 + " is: " + hcf);
+        
+    }
+
+
+}
+
+#//20.LCM Of Two Numbers
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+
+
+    public static int calculateHCF(int num1, int num2){
+        while(num2 != 0){
+            int temp = num2;
+            num2 = num1 % num2;
+            num1 = temp;
+        }
+        return num1;
+    }
+
+    public static int calculateLCM(int num1,int num2){
+        return Math.abs(num1 * num2) / calculateHCF(num1,num2);
+    }
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the 1st number:");
+        int num1 = in.nextInt();
+
+        System.out.println("Enter the 2nd number:");
+        int num2 = in.nextInt();
+
+        int lcm = calculateLCM(num1, num2);
+
+        System.out.println("The LCM of " + num1 + " and " + num2 + " is: " + lcm);
+
+    }
+
+
+}
+
+
+
+
+#//21.Java Program Vowel Or Consonant
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter a Character:");
+        char ch = in.next().charAt(0);
+
+        if(isVowel(ch)){
+            System.out.println(ch + " is a vowel");
+        }else if(Character.isLetter(ch)){
+            System.out.println(ch + " is a consonant");
+        }else{
+            System.out.println(ch + " is not a letter");
+        }
+        
+    }
+
+    public static boolean isVowel(char ch){
+        ch = Character.toLowerCase(ch);
+        return ch == 'a' || ch == 'e'|| ch == 'i'|| ch == 'o'|| ch == 'u';
+
+    }
+}
+
+#//22.Perfect Number In Java
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+    public static boolean isPerfectNumber(int num){
+        int sum = 0;
+
+        for (int i = 1; i <= num/2; i++) {
+            if(num % i == 0){
+                sum += i;
+            }
+        }
+       return sum == num;
+    }
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter a Number:");
+        int num = in.nextInt();
+
+        if(isPerfectNumber( num)){
+            System.out.println(num + " is perfect number");
+        }else{
+            System.out.println(num + " is not a  perfect number");
+        }
+    }
+    
+}
+
+#//23.Check Leap Year Or Not
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+    public static boolean isLeapYear(int year){
+        if(year % 4 == 0){
+            if(year % 100 == 0){
+                return year % 400 == 0;
+            }else{
+                return true;
+            }
+
+        }else{
+            return false;
+
+        }
+
+        }
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the year:");
+        int year = in.nextInt();
+
+        if(isLeapYear( year)){
+            System.out.println(year + " is Leap Year");
+        }else{
+            System.out.println(year + " is not a  Leap Year");
+        }
+    }
+
+}
+
+
+#//24.Sum Of A Digits Of Number
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+    public static int calculatesum(int num){
+        int sum = 0;
+        while(num != 0){
+            int digit = num % 10 ;// Extract the last digit
+            sum += digit;         // Add the digit to sum
+            num = num/10;         // Remove the last digit from num
+        }
+        return sum;
+
+    }
+
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the number:");
+        int num = in.nextInt();
+
+        int ans = calculatesum(num);
+
+        System.out.println("Sum of digit of number "+num + " is " + ans );
+
+
+    }
+
+}
+
+//reverse a number
+
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+
+    // Function to reverse a number
+    public static int reverseNumber(int num) {
+        int reversed = 0;
+
+        // Loop until num becomes 0
+        while (num != 0) {
+            int digit = num % 10;  // Extract the last digit of num
+            reversed = reversed * 10 + digit;  // Append the digit to the reversed number
+            num = num / 10;  // Remove the last digit from num
+        }
+
+        return reversed;
+    }
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter a number:");
+        int num = in.nextInt();
+
+        int reversedNum = reverseNumber(num);
+
+        System.out.println("Reversed number: " + reversedNum);
+    }
+}
+
+
+#//25.Kunal is allowed to go out with his friends only on the even days of a given month.
+// Write a program to count the number of days he can go out in the month of August.
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+    public static int calculatedays(int days) {
+        int count = 0;
+        for (int i = 1; i <= days; i++) {
+
+            if(i % 2 == 0 ){
+                count++;
+            }
+
+        }
+        return count;
+    }
+
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the days in month:");
+        int days = in.nextInt();
+
+        int ans = calculatedays( days);
+
+        System.out.println("The number of days Kunal is allowed to go out is " + ans );
+
+
+    }
+}
+
+
+
+
+
+
+#//26.Write a program to print the sum of negative numbers,
+// sum of positive even numbers and the sum of positive
+// odd numbers from a list of numbers (N) entered by the user. The list terminates when the user enters a zero.
+package aditya;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        int sumNegative = 0;
+        int sumPositiveEven = 0;
+        int sumPositiveOdd = 0;
+        System.out.println("Enter number (Enter 0 to termiante):");
+        while(true) {
+           int num = in.nextInt();
+
+           if(num == 0){
+               break;
+           }
+           if(num < 0){
+               sumNegative += num;
+           }else if(num > 0 && num % 2 ==0){
+               sumPositiveEven += num;
+           }else if(num > 0 && num % 2 != 0){
+               sumPositiveOdd += num;
+           }
+
+        }
+
+        System.out.println("Sum of negative numbers: " + sumNegative);
+        System.out.println("Sum of positive even numbers: " + sumPositiveEven);
+        System.out.println("Sum of positive odd numbers: " + sumPositiveOdd);
+
+
+    }
+}
+
+
+
+
+
+
